@@ -1,38 +1,85 @@
 .App {
   text-align: center;
+  background-color: aqua;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.main-header{
+  height: 70px;
+  background-color: black;
+  box-shadow: 10px 10px 20px black;
+  border-radius: 10px;
   display: flex;
-  flex-direction: column;
   align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  justify-content: space-between;
+}
+.image-properties{
+  height: 50px;
+  margin-left: 40px;
+}
+.header-right{
+  margin-right: 60px;
+  width: 600px;
+  display: flex;
+  justify-content: space-evenly;
+  height: 100%;
+}
+.links{
+  text-decoration: none;
   color: white;
 }
-
-.App-link {
-  color: #61dafb;
+.links-div{
+  display: flex;
+  align-items: center;
+  width: 80px;
+  font-weight: 700;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.links-div:hover{
+  display: flex;
+  align-items: center;
+  width: 80px;
+  font-size: 1.1rem;
+}
+.small-header-div{
+  height: 60px;
+  background-color: rgba(169, 169, 169, 0.3);
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  z-index: 1;
+}
+.small-header-div:hover{
+  transition: 1s ease;
+  height: 60px;
+  width: 100%;
+  background-color: rgba(169, 169, 169, 0.7);
+  border-bottom: 1px solid black;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.small-header-links{
+  text-decoration: none;
+  color: navy;
+  font-weight: 700;
+  margin-left: 30px;
+}
+.small-header-links:hover{
+  text-decoration: none;
+  color: navy;
+  font-weight: 700;
+  margin-left: 30px;
+  font-size: 1.1rem;
+}
+.icon-div{
+  width: 50px;
+  font-size: 1.8rem;
+}
+#icon{
+  cursor: pointer;
+  color: white;
+}
+.options-container{
+  position: absolute;
+  width: 100%;
 }
