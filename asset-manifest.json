@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/React-Resizable-Header/static/css/main.7b75b670.chunk.css",
-    "main.js": "/React-Resizable-Header/static/js/main.7909f1b3.chunk.js",
-    "main.js.map": "/React-Resizable-Header/static/js/main.7909f1b3.chunk.js.map",
+    "main.css": "/React-Resizable-Header/static/css/main.802757ab.chunk.css",
+    "main.js": "/React-Resizable-Header/static/js/main.ad5cc6e4.chunk.js",
+    "main.js.map": "/React-Resizable-Header/static/js/main.ad5cc6e4.chunk.js.map",
     "runtime-main.js": "/React-Resizable-Header/static/js/runtime-main.8717b54f.js",
     "runtime-main.js.map": "/React-Resizable-Header/static/js/runtime-main.8717b54f.js.map",
     "static/js/2.8c770f97.chunk.js": "/React-Resizable-Header/static/js/2.8c770f97.chunk.js",
@@ -10,13 +10,13 @@
     "static/js/3.c57c4a58.chunk.js": "/React-Resizable-Header/static/js/3.c57c4a58.chunk.js",
     "static/js/3.c57c4a58.chunk.js.map": "/React-Resizable-Header/static/js/3.c57c4a58.chunk.js.map",
     "index.html": "/React-Resizable-Header/index.html",
-    "static/css/main.7b75b670.chunk.css.map": "/React-Resizable-Header/static/css/main.7b75b670.chunk.css.map",
+    "static/css/main.802757ab.chunk.css.map": "/React-Resizable-Header/static/css/main.802757ab.chunk.css.map",
     "static/js/2.8c770f97.chunk.js.LICENSE.txt": "/React-Resizable-Header/static/js/2.8c770f97.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.8717b54f.js",
     "static/js/2.8c770f97.chunk.js",
-    "static/css/main.7b75b670.chunk.css",
-    "static/js/main.7909f1b3.chunk.js"
+    "static/css/main.802757ab.chunk.css",
+    "static/js/main.ad5cc6e4.chunk.js"
   ]
 }
