@@ -52,11 +52,9 @@ export const Navbar = () => {
                     }
                 
             </div>
-            {
-                toggle ? <SmallNavbar /> : null 
-
-            }
-            
+            <div className={toggle ? "options-container visible" : "options-container"}>
+                    <SmallNavbar /> 
+            </div>
         </div>
 
     )

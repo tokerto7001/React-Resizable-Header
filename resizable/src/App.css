@@ -1,6 +1,6 @@
 .App {
   text-align: center;
-  background-color: aqua;
+  
 }
 
 .main-header{
@@ -11,6 +11,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  z-index: 1;
 }
 .image-properties{
   height: 50px;
@@ -41,7 +42,7 @@
 }
 .small-header-div{
   height: 60px;
-  background-color: rgba(169, 169, 169, 0.3);
+  background-color: rgba(255, 255, 255, 0.6);
   border-bottom: 1px solid black;
   display: flex;
   align-items: center;
@@ -52,11 +53,18 @@
   transition: 1s ease;
   height: 60px;
   width: 100%;
-  background-color: rgba(169, 169, 169, 0.7);
+  background-color: rgba(29, 14, 163, 0.583);
   border-bottom: 1px solid black;
   display: flex;
   align-items: center;
   justify-content: center;
+}
+.small-header-div:hover .small-header-links{
+  text-decoration: none;
+  color: white;
+  font-weight: 700;
+  margin-left: 30px;
+  font-size: 1.1rem;
 }
 .small-header-links{
   text-decoration: none;
@@ -66,7 +74,7 @@
 }
 .small-header-links:hover{
   text-decoration: none;
-  color: navy;
+  color: white;
   font-weight: 700;
   margin-left: 30px;
   font-size: 1.1rem;
@@ -82,4 +90,15 @@
 .options-container{
   position: absolute;
   width: 100%;
+  margin-top: -250px;
+  height: 0;
+  z-index: -1;
+  transition: 2s ease all;
+}
+.options-container.visible{
+  position: absolute;
+  width: 100%;
+  display: block;
+  transition: 2s ease all;
+  margin-top: 0;
 }
