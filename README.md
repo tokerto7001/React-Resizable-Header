@@ -1,1 +1,2 @@
-This project is done to improve my React skills and for fun 
+This can be displayed through this link:
+https://tokerto7001.github.io/React-Resizable-Header/
